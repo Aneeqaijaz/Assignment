@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Aneeqa</title>
+</head>
+<script>
+function tes()
+{
+var a ,b, c;
+
+a =Number(document.w1.d1.value);
+b =Number(document.w1.d2.value);
+c = a+b;
+c  = a*b;
+c = a-b;
+if(a>b)
+{
+alert(a+b);
+return false;
+	}
+	if(a<b)
+	{
+	alert(a-b)	
+	}
+	
+	if(a==b)
+	{
+		alert(a*b)
+		
+		
+		}
+	
+	
+}
+
+
+</script>
+<body>
+<form method="post" name="w1">
+	<input type="text" name="d1"  />
+    <input type="text" name="d2"  />
+	<input type="button" value="get" onclick="tes();" />
+</form>
+</body>
+</html>
